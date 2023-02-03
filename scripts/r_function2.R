@@ -7,5 +7,5 @@ what_do_i_do2 <- function(){
 }
 
 where_am_i_from2 <- function(){
-  return("hopefully a folder if joe set me up right")
+  return("github, the raw url")
 }
