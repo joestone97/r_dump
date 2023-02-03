@@ -7,5 +7,5 @@ what_do_i_do2 <- function(){
 }
 
 where_am_i_from2 <- function(){
-  return("github, the raw url")
+  return("githubl")
 }
