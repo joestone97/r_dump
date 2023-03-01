@@ -140,10 +140,14 @@ dplyr::add_count()
 source("/Users/joestone/Documents/kevins/r_function1.R")
 
 
-# importing as alias -----------------------------------------------------------
+### importing as alias -----------------------------------------------------------
 #only do it if you're running into lots of conflicts, but if you are you should probably be thinking why and using the verbose method.
 install.packages("import")
 sf <- import::from(sf, .all=TRUE, .into={new.env()})
+
+### Importing from github --------------------------------------------------------
+library(devtools)
+source_url("https://raw.githubusercontent.com/joestone97/r_dump/main/scripts/r_function2.R")
 
 
 #3. OPERATORS ##################################################################
