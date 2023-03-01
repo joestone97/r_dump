@@ -17,6 +17,6 @@ Some of the sources:
 Notes for Absolute Beginners:
 Once you've installed R and RStudio, just use the inbuilt tutorials to learn R. It eases you into it more than flicking between some random blog. I recommend typing below into the console (bottom left panel), and following along in the Console:
 
-install.packages("swirl")
-library(swirl)
-swirl()
+>install.packages("swirl")
+>library(swirl)
+>swirl()
